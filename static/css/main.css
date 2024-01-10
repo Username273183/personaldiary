@@ -1,10 +1,13 @@
 :root{
-    --primary-color: #5d5d3c;
+    --primary-color: #676767;
     --secondary-color: #eeeeee;
+    --gradient1 : #3f3f42;
 }
 .light-theme{
     --primary-color: #eeeeee;
-    --secondary-color: #5d5d3c;
+    --secondary-color: #676767;
+    --gradient1 : #c0c0bd;
+    
 }
 h1{
   font-size: 30px;
@@ -17,7 +20,7 @@ h1{
 .sr-only{
     display: none;
 }
-::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+::-webkit-input-placeholder { 
     color:var(--secondary-color);
   }
 table{
@@ -52,12 +55,10 @@ td{
 }
 
 
-/* demo styles */
-
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
 body{
-background: -webkit-linear-gradient(left, #3f3f42, var(--primary-color));
-  background: linear-gradient(to right, #3f3f42, var(--primary-color));
+background: -webkit-linear-gradient(left, var(--gradient1), var(--primary-color));
+  background: linear-gradient(to right, var(--gradient1), var(--primary-color));
   font-family: 'Roboto', sans-serif;
 }
 section{
@@ -65,7 +66,6 @@ section{
 }
 
 
-/* for custom scrollbar for webkit browser*/
 
 ::-webkit-scrollbar {
     width: 6px;
@@ -240,3 +240,5 @@ input, textarea{
     line-height: 2em;
     text-indent: 1.5em;
   }
+
+  
