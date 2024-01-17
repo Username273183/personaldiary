@@ -34,6 +34,9 @@ pip install -r requirements.txt
 python3 app.py
 ```
 
+## Sample
+![Sample Image](sample/sample.png)
+
 ## Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests.
 
